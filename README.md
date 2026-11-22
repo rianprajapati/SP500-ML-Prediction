@@ -1,4 +1,3 @@
-# SP500-ML-Prediction
 # S&P 500 Machine Learning Prediction
 
 ## 1. Project Overview
