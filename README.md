@@ -1,44 +1,46 @@
 # SP500-ML-Prediction
-S&P 500 Machine Learning Prediction
+# S&P 500 Machine Learning Prediction
 
-Project Overview
+## 1. Project Overview
 
 This project aims to develop a machine learning model using Python to predict whether the next daily S&P 500 (SPX) candlestick will close bullish or bearish based on historical price data.
 
-The model will be evaluated using historical backtesting and forward testing, with results compared against market data accessed through the Bloomberg Terminal.
+The model will be evaluated through historical backtesting and forward testing, with results compared against market data accessed through the Bloomberg Terminal.
 
-Project Objectives
+## 2. Project Objectives
 
-Collect and analyse historical S&P 500 OHLC price data.
+1. Collect and analyse historical S&P 500 OHLC (Open, High, Low, Close) price data.
+2. Develop a machine learning model to predict next-day candlestick direction.
+3. Backtest predictions against historical market movements and calculate prediction accuracy.
+4. Forward test the model using new, previously unseen market data.
+5. Compare predictions and historical data against Bloomberg Terminal observations.
+6. Evaluate model performance, limitations and potential improvements.
 
-Develop a machine learning model to predict next-day candlestick direction.
+## 3. Technologies
 
-Backtest predictions against historical market movements.
+1. Python: Primary programming language.
+2. pandas and NumPy: Data processing and analysis.
+3. scikit-learn: Machine learning model development.
+4. yfinance: Historical financial market data.
+5. Matplotlib: Data visualisation and prediction charts.
+6. Bloomberg Terminal: Market data verification and comparison.
 
-Forward test predictions using new market data.
+## 4. Methodology
 
-Compare model predictions and historical data with Bloomberg Terminal observations.
+1. Data Collection: Obtain historical S&P 500 daily candlestick data.
+2. Model Development: Train a machine learning model using historical price patterns.
+3. Backtesting: Evaluate model predictions against previously unseen historical data.
+4. Forward Testing: Generate predictions for upcoming trading sessions and compare them against actual outcomes.
+5. Bloomberg Comparison: Validate historical prices and prediction outcomes using Bloomberg Terminal data.
 
-Evaluate predictive accuracy and identify model limitations.
+## 5. Results
 
-Technologies
+Model accuracy, backtesting statistics, forward-testing performance and visualisations will be added as the project progresses.
 
-Python
+## 6. Documentation
 
-pandas and NumPy
+A separate research report will document the financial reasoning, data sources, machine learning methodology, results, limitations and conclusions.
 
-scikit-learn
+## 7. Project Status
 
-yfinance
-
-Matplotlib
-
-Bloomberg Terminal (data comparison and validation)
-
-Project Status
-
-In development.
-
-Documentation
-
-A research report will accompany the Python implementation, explaining the methodology, testing process, results and conclusions.
+In Development: Initial project setup and historical data collection.
